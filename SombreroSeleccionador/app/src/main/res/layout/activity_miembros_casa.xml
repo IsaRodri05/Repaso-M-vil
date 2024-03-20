@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityMiembrosPagina"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MiembrosCasa">
+
+    <TextView
+        android:id="@+id/tituloMiembros"
+        android:textSize="50sp"
+        android:text="Miembros"
+        android:fontFamily="@font/harryp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/contextoMiembros"
+        android:layout_below="@+id/tituloMiembros"
+        android:textSize="25sp"
+        android:text="Mira la historia de los miembros"
+        android:fontFamily="@font/harryp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+        android:id="@+id/listaMiembros"
+        android:layout_below="@+id/contextoMiembros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

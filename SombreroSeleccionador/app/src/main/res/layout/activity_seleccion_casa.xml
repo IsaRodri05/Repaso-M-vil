@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fondo"
+    android:background="#E6EAA7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeleccionCasa"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/text_view_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/harryp__"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Bienvenidos a Hogwarts"
+        android:layout_marginTop="45dp"
+        android:textSize="50sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/button_seleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_titulo"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Seleccionaré tu casa" />
+
+    <ImageView
+        android:id="@+id/imagen_variante"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/sombreroseleccionador"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/harryp__"
+        android:gravity="center"
+        android:text=""
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/imagen_variante"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/harryp__"
+        android:gravity="center"
+        android:text=""
+        android:textSize="25sp"
+        android:layout_below="@+id/textResultado"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

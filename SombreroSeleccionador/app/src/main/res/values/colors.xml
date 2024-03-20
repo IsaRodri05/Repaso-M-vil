@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Ravenclaw">#B2C6F1</color>
+    <color name="RavenclawLetra">#274B9F</color>
+    <color name="Slytherin">#B6FFB2</color>
+    <color name="SlytherinLetra">#348723</color>
+    <color name="Gryffindor">#FFB1AD</color>
+    <color name="GryffindorLetra">#872323</color>
+    <color name="Hufflepuff">#F6FF89</color>
+    <color name="HufflepuffLetra">#AAB31D</color>
+</resources>
