@@ -1,2 +1,2 @@
-# Repaso-M-vil
-Aplicación para realizar un repaso para mi parcial de móvil
+# Repaso-Móvil
+Aplicación para repasar mis conocimientos en móvil
